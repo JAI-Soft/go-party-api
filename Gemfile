@@ -44,6 +44,32 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+gem "sassc"
+
+# gem active admin
+gem "activeadmin"
+
+# gem Roles
+gem "rolify"
+gem "pundit"
+
+# API and JWT
+gem "devise"
+gem "jwt"
+gem "bcrypt"
+gem "rack-cors"
+
+# Decorator
+gem "draper"
+
+# Linter
+gem "standardrb"
+
+# ENV
+gem "dotenv-rails"
+
+# Image
+gem "activestorage"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
