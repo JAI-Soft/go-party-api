@@ -128,7 +128,11 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
+    nokogiri (1.13.7-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.13.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.7-x86_64-darwin)
       racc (~> 1.4)
     pg (1.4.1)
     public_suffix (4.0.7)
@@ -212,7 +216,9 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin-21
+  x86_64-darwin-22
 
 DEPENDENCIES
   bootsnap
