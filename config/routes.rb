@@ -12,8 +12,8 @@ Rails.application.routes.draw do
       devise_scope :user do
         post "register", to: "registrations#create"
         post "login", to: "sessions#create"
-        #post "/forgot_password", to: "passwords#forgot"
-        #put "/reset_password", to: "passwords#reset"
+        # post "/forgot_password", to: "passwords#forgot"
+        # put "/reset_password", to: "passwords#reset"
         resources :users
       end
     end
